@@ -12,9 +12,9 @@ public class Act3Runnable implements Runnable {
 	public void run() {
 		for (int i = from; i < to; i++) {
 			System.out.println(toString() + " i : " + i);
-			/* El método to string nos convierte el resultado de la devolucion del objeto a String
-
-*/
+			 
+			/* El método to string nos convierte el resultado de la devolucion del objeto a String, pero no me devuelve el mismo
+			 * resultado que en CountThreadTest*/
 	}
 	
 
