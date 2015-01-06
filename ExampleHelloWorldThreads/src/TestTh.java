@@ -26,22 +26,27 @@
 		
 		// Ahora imprimimos el nombre 
 		System.out.println( "Hola Mundo! "+nombre+" "+retardo );
+		
 		}
-//fin class
+ 
 	 
 	 
 	public static void main( String args[] ) { 
 		TestTh t1,t2,t3;
 	
-		// Creamos los threads 
+		// Creamos los threads
+		System.out.println ("Todos los hilos saludan :)");
+		
 		t1 = new TestTh( "Thread 1",(int)(Math.random()*2000) ); 
 		t2 = new TestTh( "Thread 2",(int)(Math.random()*2000) ); 
 		t3 = new TestTh( "Thread 3",(int)(Math.random()*2000) );
+		
 		// Arrancamoslos threads, si lo que queremos es que los hijos sean ejecutados
 		//concurrentemente invocaremos el método start
 		t1.start(); 
 		t2.start();
 		t3.start(); 
+		
 	}//fin main
 	}//Fin class multihola
  
