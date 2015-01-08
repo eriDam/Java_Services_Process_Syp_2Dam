@@ -9,7 +9,7 @@ package com.eriDam2.sypAda2;
 	
 	/**
 	 * En la salida por pantalla se observa que los 10 Thread imprimen por pantalla una cuenta de 0 a 99, 
-	 * Por otra parte no salen ordenados aunque están dentro de un for
+	 * Por otra parte no salen ordenados aunque están dentro de un for, aparece el nombre del hilo y su prioridad.
 	 * */
 class CountThreadTest extends Thread {
 	int from; //
